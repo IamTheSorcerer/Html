@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body{
+    background-color: lightseagreen;
+
+}
+h1 {
+    text-align: center;
+    text-decoration: solid;
+}
+h2{
+    border: 2.5px solid black;
+    background-color: brown;
+    font-size: large;
+    color: white;
+}
+h3{
+    font-size: larger;
+    text-decoration:underline;
+    color: black;
+    background-color: lightgreen;
+}
+p{
+    background-color: white;
+    
+}
+div#d1:hover{
+    color: aqua;
+}
+div#d2:hover{
+    font-size: 20px;
+}

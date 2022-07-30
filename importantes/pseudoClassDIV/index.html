@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psudo-Classe</title>
+    <style>
+        div {
+            display: inline-block; /*tudo na mesma linha, e tambem quebra de linha */
+            background-color: lightgreen; /*Cor de Fundo*/
+            border: 1px solid black; /* tamanho, tipo, cor */
+            text-align: center; /*No Centro*/
+            height: 200px; /*Altura*/
+            width: 200px; /*Largura*/
+        }
+
+        div:hover /* Quando o mouse passar por cima */
+        {
+            background-color: aqua;
+        }
+        div#d2{
+            background-color: lightseagreen;
+        }
+        div#d2:hover{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <p>Basico</p>
+    <div id="d1">01</div>
+    <div id="d2">02</div>
+    <div id="d3">03</div>
+</body>
+</html>

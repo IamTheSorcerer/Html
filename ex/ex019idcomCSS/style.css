@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+/*
+    em HTML é id    = em CSS é #
+    em HTML é class = em CSS é .
+
+*/
+
+
+body{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: orangered;
+    background-color: black;
+    text-align: center;
+}
+/*
+Seletor Principal abaixo
+*/
+h1#principal{
+    text-align: center;
+    background-color: aqua;
+    color: black;
+}
+
+h2{
+    color: blue;
+  
+}
+
+.basico{
+    /*
+    Tudo que for da class "basico" vai ter essa config abaixo
+    */
+    color: green;
+    text-align: left;
+    background-color: greenyellow;
+}
+
+.intermediario{
+    /*
+    Tudo que for da class "intermediario" vai ter essa config abaixo
+    */
+    color: blue;
+    text-align: center;
+    background-color: rgb(103, 103, 241);
+}
+
+.avancado{
+    /*
+    Tudo que for da class "avancado" vai ter essa config abaixo
+    */
+    color: red;
+    text-align: right;
+    background-color: rgb(252, 87, 87);
+}
+.destaque{
+    font-style: bolder;
+}
